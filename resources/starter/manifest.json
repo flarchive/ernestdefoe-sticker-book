@@ -1,0 +1,224 @@
+{
+    "sets": [
+        {
+            "slug": "forest-friends",
+            "name": "Forest Friends",
+            "description": "Woodland pals who never miss a picnic.",
+            "stickers": [
+                {
+                    "slug": "fox",
+                    "name": "Fox",
+                    "rarity": "common",
+                    "file": "forest-friends/fox.webp"
+                },
+                {
+                    "slug": "owl",
+                    "name": "Owl",
+                    "rarity": "common",
+                    "file": "forest-friends/owl.webp"
+                },
+                {
+                    "slug": "hedgehog",
+                    "name": "Hedgehog",
+                    "rarity": "common",
+                    "file": "forest-friends/hedgehog.webp"
+                },
+                {
+                    "slug": "raccoon",
+                    "name": "Raccoon",
+                    "rarity": "common",
+                    "file": "forest-friends/raccoon.webp"
+                },
+                {
+                    "slug": "bear-cub",
+                    "name": "Bear Cub",
+                    "rarity": "rare",
+                    "file": "forest-friends/bear-cub.webp"
+                },
+                {
+                    "slug": "bunny",
+                    "name": "Bunny",
+                    "rarity": "rare",
+                    "file": "forest-friends/bunny.webp"
+                },
+                {
+                    "slug": "frog",
+                    "name": "Frog",
+                    "rarity": "epic",
+                    "file": "forest-friends/frog.webp"
+                },
+                {
+                    "slug": "golden-stag",
+                    "name": "Golden Stag",
+                    "rarity": "legendary",
+                    "file": "forest-friends/golden-stag.webp"
+                }
+            ]
+        },
+        {
+            "slug": "space-cadets",
+            "name": "Space Cadets",
+            "description": "Blast off and collect the whole galaxy.",
+            "stickers": [
+                {
+                    "slug": "rocket",
+                    "name": "Rocket",
+                    "rarity": "common",
+                    "file": "space-cadets/rocket.webp"
+                },
+                {
+                    "slug": "astronaut-helmet",
+                    "name": "Astronaut Helmet",
+                    "rarity": "common",
+                    "file": "space-cadets/astronaut-helmet.webp"
+                },
+                {
+                    "slug": "ringed-planet",
+                    "name": "Ringed Planet",
+                    "rarity": "common",
+                    "file": "space-cadets/ringed-planet.webp"
+                },
+                {
+                    "slug": "ufo",
+                    "name": "UFO",
+                    "rarity": "common",
+                    "file": "space-cadets/ufo.webp"
+                },
+                {
+                    "slug": "moon-face",
+                    "name": "Sleepy Moon",
+                    "rarity": "rare",
+                    "file": "space-cadets/moon-face.webp"
+                },
+                {
+                    "slug": "comet",
+                    "name": "Comet",
+                    "rarity": "rare",
+                    "file": "space-cadets/comet.webp"
+                },
+                {
+                    "slug": "alien-buddy",
+                    "name": "Alien Buddy",
+                    "rarity": "epic",
+                    "file": "space-cadets/alien-buddy.webp"
+                },
+                {
+                    "slug": "supernova",
+                    "name": "Supernova",
+                    "rarity": "legendary",
+                    "file": "space-cadets/supernova.webp"
+                }
+            ]
+        },
+        {
+            "slug": "snack-attack",
+            "name": "Snack Attack",
+            "description": "The tastiest stickers on the forum, zero calories.",
+            "stickers": [
+                {
+                    "slug": "taco",
+                    "name": "Taco",
+                    "rarity": "common",
+                    "file": "snack-attack/taco.webp"
+                },
+                {
+                    "slug": "donut",
+                    "name": "Donut",
+                    "rarity": "common",
+                    "file": "snack-attack/donut.webp"
+                },
+                {
+                    "slug": "sushi-roll",
+                    "name": "Sushi Roll",
+                    "rarity": "common",
+                    "file": "snack-attack/sushi-roll.webp"
+                },
+                {
+                    "slug": "pizza-slice",
+                    "name": "Pizza Slice",
+                    "rarity": "common",
+                    "file": "snack-attack/pizza-slice.webp"
+                },
+                {
+                    "slug": "coffee-cup",
+                    "name": "Coffee Cup",
+                    "rarity": "rare",
+                    "file": "snack-attack/coffee-cup.webp"
+                },
+                {
+                    "slug": "avocado",
+                    "name": "Avocado",
+                    "rarity": "rare",
+                    "file": "snack-attack/avocado.webp"
+                },
+                {
+                    "slug": "ice-cream-cone",
+                    "name": "Ice Cream Cone",
+                    "rarity": "epic",
+                    "file": "snack-attack/ice-cream-cone.webp"
+                },
+                {
+                    "slug": "golden-pancake-stack",
+                    "name": "Golden Pancake Stack",
+                    "rarity": "legendary",
+                    "file": "snack-attack/golden-pancake-stack.webp"
+                }
+            ]
+        },
+        {
+            "slug": "forum-life",
+            "name": "Forum Life",
+            "description": "Every inside joke your forum has ever made.",
+            "stickers": [
+                {
+                    "slug": "first",
+                    "name": "First!",
+                    "rarity": "common",
+                    "file": "forum-life/first.webp"
+                },
+                {
+                    "slug": "plus-one",
+                    "name": "+1",
+                    "rarity": "common",
+                    "file": "forum-life/plus-one.webp"
+                },
+                {
+                    "slug": "bump",
+                    "name": "Bump",
+                    "rarity": "common",
+                    "file": "forum-life/bump.webp"
+                },
+                {
+                    "slug": "tldr",
+                    "name": "TL;DR",
+                    "rarity": "common",
+                    "file": "forum-life/tldr.webp"
+                },
+                {
+                    "slug": "lurker",
+                    "name": "Lurker",
+                    "rarity": "rare",
+                    "file": "forum-life/lurker.webp"
+                },
+                {
+                    "slug": "404",
+                    "name": "404",
+                    "rarity": "rare",
+                    "file": "forum-life/404.webp"
+                },
+                {
+                    "slug": "mod-hammer",
+                    "name": "Mod Hammer",
+                    "rarity": "epic",
+                    "file": "forum-life/mod-hammer.webp"
+                },
+                {
+                    "slug": "thread-legend",
+                    "name": "Thread Legend",
+                    "rarity": "legendary",
+                    "file": "forum-life/thread-legend.webp"
+                }
+            ]
+        }
+    ]
+}

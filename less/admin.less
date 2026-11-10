@@ -1,0 +1,122 @@
+.StickerAdmin {
+  max-width: 900px;
+  --sb-r0: #94a3b8;
+  --sb-r1: #3b82f6;
+  --sb-r2: #a855f7;
+  --sb-r3: #f59e0b;
+}
+
+.StickerAdmin-set {
+  margin-bottom: 14px;
+  padding: 14px;
+  border: 1px solid var(--control-bg);
+  border-radius: 10px;
+  background: var(--body-bg);
+  color: var(--text-color);
+
+  &.is-hidden {
+    border-style: dashed;
+    opacity: 0.85;
+  }
+}
+
+.StickerAdmin-setHead {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+
+  h4 {
+    flex: 1;
+    min-width: 0;
+    margin: 0;
+    color: var(--text-color);
+  }
+}
+
+.StickerAdmin-tag {
+  padding: 1px 8px;
+  border-radius: 10px;
+  background: var(--control-bg);
+  color: var(--control-color);
+  font-size: 12px;
+}
+
+.StickerAdmin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(~"min(104px, 100%)", 1fr));
+  gap: 10px;
+  margin: 12px 0;
+}
+
+.StickerAdmin-sticker {
+  position: relative;
+  min-width: 0;
+  padding: 8px;
+  border: 2px solid var(--sb-r0);
+  border-radius: 10px;
+  text-align: center;
+  color: var(--text-color);
+
+  img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+  }
+
+  .StickerAdmin-name {
+    display: block;
+    overflow: hidden;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .StickerAdmin-meta {
+    display: block;
+    color: var(--muted-color);
+    font-size: 12px;
+  }
+
+  &.r1 { border-color: var(--sb-r1); }
+  &.r2 { border-color: var(--sb-r2); }
+  &.r3 { border-color: var(--sb-r3); }
+}
+
+.StickerAdmin-form {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 8px;
+  background: var(--control-bg);
+
+  .StickerAdmin-row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+    > * {
+      flex: 1 1 180px;
+      min-width: 0;
+    }
+  }
+}
+
+.StickerAdmin-preview {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+}
+
+.StickerAdmin-odds {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(~"min(140px, 100%)", 1fr));
+  gap: 10px;
+}
+
+button.StickerAdmin-sticker {
+  background: var(--body-bg);
+  cursor: pointer;
+  font: inherit;
+}
